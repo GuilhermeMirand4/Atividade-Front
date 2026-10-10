@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração do campus do Instituto Lumiar ao amanhecer">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F3D4C"/>
+      <stop offset="0.55" stop-color="#2A7F8E"/>
+      <stop offset="1" stop-color="#F8C27A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#ceu)"/>
+  <!-- sol -->
+  <circle cx="560" cy="560" r="130" fill="#F4A940"/>
+  <circle cx="560" cy="560" r="180" fill="#F4A940" opacity="0.25"/>
+  <!-- montanhas -->
+  <path d="M0 640 L170 470 L300 600 L450 430 L640 620 L800 520 L800 1000 L0 1000 Z" fill="#1C5C6B" opacity="0.8"/>
+  <path d="M0 720 L140 600 L280 700 L420 580 L600 710 L800 620 L800 1000 L0 1000 Z" fill="#0F3D4C"/>
+  <!-- prédio principal -->
+  <g fill="#FFF8EC">
+    <rect x="150" y="640" width="500" height="230"/>
+    <polygon points="130,640 400,540 670,640"/>
+    <rect x="360" y="700" width="80" height="170" fill="#0F3D4C"/>
+  </g>
+  <g fill="#F4A940">
+    <rect x="190" y="690" width="50" height="60"/>
+    <rect x="270" y="690" width="50" height="60"/>
+    <rect x="480" y="690" width="50" height="60"/>
+    <rect x="560" y="690" width="50" height="60"/>
+    <circle cx="400" cy="610" r="18"/>
+  </g>
+  <!-- colunas -->
+  <g fill="#E3D5BC">
+    <rect x="335" y="700" width="14" height="170"/>
+    <rect x="451" y="700" width="14" height="170"/>
+  </g>
+  <!-- chão -->
+  <rect y="870" width="800" height="130" fill="#0A2D39"/>
+  <path d="M340 870 L460 870 L560 1000 L240 1000 Z" fill="#E3D5BC" opacity="0.9"/>
+  <!-- árvores -->
+  <g fill="#14786B">
+    <circle cx="80" cy="830" r="55"/><circle cx="720" cy="830" r="55"/>
+  </g>
+  <g fill="#5A3E2B">
+    <rect x="74" y="840" width="12" height="40"/><rect x="714" y="840" width="12" height="40"/>
+  </g>
+</svg>
